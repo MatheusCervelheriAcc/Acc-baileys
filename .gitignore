@@ -1,0 +1,102 @@
+# ==============================
+# Node / TypeScript Essentials
+# ==============================
+
+# Dependências
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+
+# Build output
+dist/
+lib/
+out/
+build/
+coverage/
+
+# Arquivos temporários e caches
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# Diretórios de cache
+.cache/
+.eslintcache
+.tmp/
+.vscode/.ropeproject
+.idea/
+*.iml
+
+# Compilação TypeScript
+*.tsbuildinfo
+
+# Documentação gerada
+docs/
+typedoc/
+
+# Arquivos do sistema operacional
+.DS_Store
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Ambiente / credenciais
+.env
+.env.*
+!.env.example
+
+# Testes e relatórios
+coverage/
+.nyc_output/
+jest-html-reporters-*.html
+test-results/
+reports/
+
+# Scripts temporários
+*.pid
+*.seed
+*.pid.lock
+
+# Editor configs (opcionais)
+.vscode/
+.vscode-test/
+
+# Logs de processos
+pids
+logs
+*.log
+
+# Arquivos do PM2 / nodemon / ts-node-dev
+pids/
+pids/*
+*.pid
+nodemon-debug.log
+
+# ==============================
+# Custom do projeto ACC Baileys
+# ==============================
+
+# Builds e protos gerados
+WAProto/index.ts.js
+WAProto/index.ts.d.ts
+WAProto/fix-imports.js
+WAProto/GenerateStatics.sh
+WAProto/*.json
+
+# Releases / pacotes
+*.tgz
+
+# Arquivos locais de dev
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
